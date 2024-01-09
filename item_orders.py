@@ -6,7 +6,7 @@ class Item:
         if price >= 0:
             self.price = price
         else:
-            raise ValueError("Price must be greater or equal to 0.")
+            raise ValueError("Price must be greater than or equal to 0.")
         if quantity > 0:
             self.quantity = quantity
         else:
